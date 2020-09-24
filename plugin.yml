@@ -1,0 +1,10 @@
+name: LoR_Playtime
+version: 1.1 BETA
+main: de.landofrails.onlinetime.OnlineTimePlugin
+database: true
+depends: [MessageAPI]
+commands:
+  playtime:
+    description: Zeigt die gesamte Spielzeit an.
+  onlinetime:
+    description: Zeigt die gesamte Onlinezeit an.
